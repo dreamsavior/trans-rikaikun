@@ -1,0 +1,21 @@
+{
+    "name": "transRikaikun",
+	"description": "Translator++ support for Rikaikun. Rikaikun shows the reading and English definition of Japanese words when you hover over Japanese text in Translator++.",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.0.1",
+	"icon": "images/icon128.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload" : false,
+	"load": [
+		"transRikaikun.js"
+	],
+	"background": {
+		"page": "background.html",
+		"persistent": true
+	},
+	"minimumVersion" : "5.2.18"
+
+}
