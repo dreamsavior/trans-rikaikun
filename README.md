@@ -1,6 +1,13 @@
 # Trans-Rikaikun <!-- omit in toc -->
 Trans-Rikaikun is rikaikun port for Translator++
 
+![Activate Rikaikun](https://github.com/dreamsavior/trans-rikaikun/blob/main/screenshots/Translator++/2023-02-19%2017_55_06-Model%20compare.trans%20-%20Translator++%20Ver.5.2.15%20DEV-preview.png?raw=true)
+Activate Rikaikun via main menu button or **alt+r**
+
+![Mouse hover to any Japanese phrases/word on screen to get the info](https://github.com/dreamsavior/trans-rikaikun/blob/main/screenshots/Translator++/2023-02-19%2017_52_37-Model%20compare.trans%20-%20Translator++%20Ver.5.2.15%20DEV-preview.png?raw=true)
+Mouse hover to any Japanese phrases/word on screen to get the detailed information about the word/kanji/phrases
+
+
 # rikaikun <!-- omit in toc -->
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jipdnfibhldikgcjhfnomkfpcebammhp?style=flat)](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp)
