@@ -1,5 +1,5 @@
 # Trans-Rikaikun <!-- omit in toc -->
-**A Raikun port for Translator++.**
+**A Rikaikun port for Translator++.**
 
 ![Activate Rikaikun](https://github.com/dreamsavior/trans-rikaikun/blob/main/screenshots/Translator++/2023-02-19%2017_55_06-Model%20compare.trans%20-%20Translator++%20Ver.5.2.15%20DEV-preview.png?raw=true)
 
