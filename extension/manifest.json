@@ -9,10 +9,7 @@
     "128": "images/icon128.png"
   },
   "offline_enabled": true,
-  "permissions": [
-    "clipboardWrite",
-    "storage"
-  ],
+  "permissions": ["clipboardWrite", "storage"],
   "background": {
     "page": "background.html",
     "persistent": true
@@ -26,30 +23,17 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "http://*/*",
-        "https://*/*",
-        "ftp://*/*",
-        "file:///*"
-      ],
+      "matches": ["http://*/*", "https://*/*", "ftp://*/*", "file:///*"],
       "match_about_blank": true,
-      "js": [
-        "rikaicontent.js"
-      ],
+      "js": ["rikaicontent.js"],
       "all_frames": true
     },
     {
-      "matches": [
-        "https://docs.google.com/*"
-      ],
-      "js": [
-        "docs-annotate-canvas.js"
-      ],
+      "matches": ["https://docs.google.com/*"],
+      "js": ["docs-annotate-canvas.js"],
       "run_at": "document_start",
       "all_frames": true
     }
   ],
-  "web_accessible_resources": [
-    "css/popup.css"
-  ]
+  "web_accessible_resources": ["css/popup.css"]
 }

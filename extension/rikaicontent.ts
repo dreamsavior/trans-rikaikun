@@ -41,6 +41,7 @@
 
 import { Config } from './configuration';
 import { DictEntryData } from './data';
+
 const dataLoc = "www/addons/transRikaikun/";
 
 declare global {
@@ -1404,7 +1405,7 @@ class RcxContent {
   }
 }
 
-var rcxContent = new RcxContent();
+const rcxContent = new RcxContent();
 
 // Event Listeners
 chrome.runtime.onMessage.addListener((request) => {
