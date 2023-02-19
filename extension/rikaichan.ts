@@ -182,10 +182,12 @@ class RcxMain {
         this.showPopupInTab(tabId, 'Rikaikun enabled!');
       }
     }
+    /*
     void chrome.browserAction.setBadgeBackgroundColor({
       color: [255, 0, 0, 255],
     });
     void chrome.browserAction.setBadgeText({ text: 'On' });
+    */
   }
 
   private showPopupInTab(tabId: number, text: string) {
@@ -204,9 +206,11 @@ class RcxMain {
   // This function disables rikaikun in all tabs.
   inlineDisable() {
     this.enabled = 0;
+    /*
     void chrome.browserAction.setBadgeBackgroundColor({ color: [0, 0, 0, 0] });
     void chrome.browserAction.setBadgeText({ text: '' });
-
+    */
+   
     // Send a disable message to all browsers
     chrome.windows.getAll({ populate: true }, (windows) => {
       for (let i = 0; i < windows.length; ++i) {

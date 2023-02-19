@@ -33,40 +33,40 @@ chrome.runtime.onMessage.addListener(async (request, sender, response) => {
   const rcxMain = await rcxMainPromise;
   switch (request.type) {
     case 'enable?':
-      console.log('enable?');
+      //console.log('enable?');
       if (sender.tab === undefined) {
         throw TypeError('sender.tab is always defined here.');
       }
       rcxMain.onTabSelect(sender.tab.id);
       break;
     case 'xsearch':
-      console.log('xsearch');
+      //console.log('xsearch');
       response(rcxMain.search(request.text, request.dictOption));
       break;
     case 'resetDict':
-      console.log('resetDict');
+      //console.log('resetDict');
       rcxMain.resetDict();
       break;
     case 'translate':
-      console.log('translate');
+      //console.log('translate');
       response(rcxMain.dict.translate(request.title));
       break;
     case 'makehtml':
-      console.log('makehtml');
+      //console.log('makehtml');
       response(rcxMain.dict.makeHtml(request.entry));
       break;
     case 'switchOnlyReading':
-      console.log('switchOnlyReading');
+      //console.log('switchOnlyReading');
       void chrome.storage.sync.set({
         onlyreading: !rcxMain.config.onlyreading,
       });
       break;
     case 'copyToClip':
-      console.log('copyToClip');
+      //console.log('copyToClip');
       rcxMain.copyToClip(sender.tab, request.entry);
       break;
     case 'playTTS':
-      console.log('playTTS');
+      //console.log('playTTS');
       tts.play(request.text);
       break;
     default:
@@ -76,6 +76,6 @@ chrome.runtime.onMessage.addListener(async (request, sender, response) => {
 
 // Clear browser action badge text on first load
 // Chrome preserves last state which is usually 'On'
-void chrome.browserAction.setBadgeText({ text: '' });
+//void chrome.browserAction.setBadgeText({ text: '' });
 
 export { rcxMainPromise as TestOnlyRxcMainPromise };

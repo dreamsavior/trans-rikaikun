@@ -28,7 +28,7 @@ const config = {
     ],
   ],
   buildOptions: {
-    out: 'dist',
+    out: 'dist/transRikaikun',
     // The default _snowpack breaks chrome extensions.
     metaUrlPath: 'snowpack',
     clean: true,

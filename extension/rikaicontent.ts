@@ -41,6 +41,7 @@
 
 import { Config } from './configuration';
 import { DictEntryData } from './data';
+const dataLoc = "www/addons/transRikaikun/";
 
 declare global {
   interface Window {
@@ -128,7 +129,7 @@ class RcxContent {
     if (!popup) {
       const css = topdoc.createElement('link');
       css.setAttribute('rel', 'stylesheet');
-      css.setAttribute('href', chrome.extension.getURL('css/popup.css'));
+      css.setAttribute('href', chrome.extension.getURL(dataLoc+'css/popup.css'));
 
       popup = topdoc.createElementNS('http://www.w3.org/1999/xhtml', 'div');
       popup.setAttribute('id', 'rikaichan-window');
@@ -1403,7 +1404,7 @@ class RcxContent {
   }
 }
 
-const rcxContent = new RcxContent();
+var rcxContent = new RcxContent();
 
 // Event Listeners
 chrome.runtime.onMessage.addListener((request) => {
@@ -1424,4 +1425,5 @@ chrome.runtime.onMessage.addListener((request) => {
 // When a page first loads, checks to see if it should enable script
 chrome.runtime.sendMessage({ type: 'enable?' });
 
-export { RcxContent as TestOnlyRcxContent };
+//export { RcxContent as TestOnlyRcxContent };
+module.exports = rcxContent;
