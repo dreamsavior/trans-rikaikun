@@ -1,5 +1,6 @@
 {
     "name": "transRikaikun",
+	"title": "Rikaikun for Translator++",
 	"description": "Translator++ support for Rikaikun. Rikaikun shows the reading and English definition of Japanese words when you hover over Japanese text in Translator++.",
     "homepage": "http://dreamsavior.net",
     "version": "0.0.1",
