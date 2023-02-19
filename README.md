@@ -7,10 +7,14 @@ Activate Rikaikun via main menu button or **alt+r**
 
 
 ![Mouse hover to any Japanese phrases/word on screen to get the info](https://github.com/dreamsavior/trans-rikaikun/blob/main/screenshots/Translator++/2023-02-19%2017_52_37-Model%20compare.trans%20-%20Translator++%20Ver.5.2.15%20DEV-preview.png?raw=true)
+
 Mouse hover to any Japanese phrases/word on screen to get the detailed information about the word/kanji/phrases
 
+
 ![enter image description here](https://github.com/dreamsavior/trans-rikaikun/blob/main/screenshots/Translator++/2023-02-19%2018_14_59-Options%20-%20Translator++.png?raw=true)
+
 Install **Rikaikun for Translator++** via Add-ons installer
+
 
 # rikaikun <!-- omit in toc -->
 
