@@ -1,3 +1,6 @@
+# Trans-Rikaikun <!-- omit in toc -->
+Trans-Rikaikun is rikaikun port for Translator++
+
 # rikaikun <!-- omit in toc -->
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jipdnfibhldikgcjhfnomkfpcebammhp?style=flat)](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp)
